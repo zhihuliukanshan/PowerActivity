@@ -7,7 +7,7 @@
 - 详尽的预约数据：支持预约名单数据导出Excel，打印
 
  
- ![输入图片说明](demo/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220227185407.png)
+![image](https://user-images.githubusercontent.com/100545532/156073663-18b5b854-720c-4e32-9751-87946736346b.png)
 
 
 ## 技术运用
@@ -23,23 +23,12 @@
 - 如有疑问，欢迎骚扰联系我鸭：开发交流，技术分享，问题答疑，功能建议收集，版本更新通知
 - 俺的微信:
 
-![输入图片说明](https://gitee.com/naive2021/smartcollege/raw/master/demo/author.jpg)
+![image](https://user-images.githubusercontent.com/100545532/156073832-f16fbe69-5241-41ef-bbdf-71fe94e2f174.png)
 
 
+![image](https://user-images.githubusercontent.com/100545532/156073784-38b04c52-648e-4bff-8290-8876fe4288d7.png)
 
-## 演示
-![输入图片说明](demo/%E9%A6%96%E9%A1%B5.png)
-![输入图片说明](demo/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png)
- ![输入图片说明](demo/%E7%96%AB%E8%8B%97%E5%B8%B8%E8%AF%86.png)
-![输入图片说明](demo/%E9%A2%84%E7%BA%A6%E6%97%A5%E5%8E%86.png)
-![输入图片说明](demo/%E9%A2%84%E7%BA%A6%E6%97%B6%E6%AE%B5.png)
-![输入图片说明](demo/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.png)
-
-## 后台演示
-![输入图片说明](demo/%E5%90%8E%E5%8F%B0%E9%A6%96%E9%A1%B5.png)
-![输入图片说明](demo/%E5%90%8E%E5%8F%B0-%E9%A2%84%E7%BA%A6%E5%88%97%E8%A1%A8.png)
-![输入图片说明](demo/%E5%90%8E%E5%8F%B0-%E9%A2%84%E7%BA%A6%E5%90%8D%E5%8D%95.png)
-
+ 
 ## 安装
 
 - 安装手册见源码包里的word文档
@@ -49,4 +38,23 @@
 
 ## 截图
 
- ![输入图片说明](demo/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220227185407.png)
+![image](https://user-images.githubusercontent.com/100545532/156073908-12777a77-7c1c-4466-b674-a8b1096cba28.png)
+![image](https://user-images.githubusercontent.com/100545532/156073913-735917d2-bdbb-4921-af06-aaea3e4f183a.png)
+![image](https://user-images.githubusercontent.com/100545532/156073924-c1667d3d-144c-444b-b47b-04f386849d32.png)
+![image](https://user-images.githubusercontent.com/100545532/156073928-0a08976b-959a-479e-8d7a-c13ebe255c28.png)
+![image](https://user-images.githubusercontent.com/100545532/156073931-b6a6fe9e-2d17-40db-a0ac-c9078409d4c5.png)
+
+![image](https://user-images.githubusercontent.com/100545532/156073938-8b8dc75d-606d-4970-8569-73b21d60b2a2.png)
+
+## 后台截图
+
+![image](https://user-images.githubusercontent.com/100545532/156074014-321dfd7d-3f99-42f9-8fa1-6f4f6205af4b.png)
+
+![image](https://user-images.githubusercontent.com/100545532/156074036-679810a9-506a-403c-b7c2-253262d0fc5f.png)
+
+![image](https://user-images.githubusercontent.com/100545532/156074058-66d57250-d1a4-479d-8b17-bad58625c03b.png)
+
+
+
+
+
