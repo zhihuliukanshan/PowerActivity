@@ -1,0 +1,10 @@
+{
+	"usingComponents": { 
+		"cmpt-custom-nav": "/cmpts/public/custom_nav/custom_nav_cmpt",
+		"cmpt-swiper": "/cmpts/public/swiper/swiper_cmpt",
+		"cmpt-detail": "/cmpts/biz/detail/detail_cmpt"
+	},
+	"navigationStyle": "custom",
+	"enablePullDownRefresh": true,  
+	"navigationBarTitleText": ""
+}

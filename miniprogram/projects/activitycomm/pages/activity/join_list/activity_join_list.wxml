@@ -1,0 +1,38 @@
+<view wx:if="{{isLoad===null}}" class="margin-top load notexist text-l load-project"></view>
+<view wx:if="{{isLoad===false}}" class="margin-top load loading text-l load-project"></view>
+
+<block wx:if="{{isLoad}}">
+	<cmpt-comm-list type="activity_join_list" _params="{{_params}}" search="{{search||''}}" _menus="{{sortMenus}}" _items="{{sortItems}}" route="activity/join_list" isTotalMenu="{{false}}" sortMenusDefaultIndex="0" topBottom="120" placeholder="搜索标题" bind:list="bindCommListCmpt">
+
+		<view slot="searchEnd">
+
+		</view>
+
+		<!-- List Begin -->
+		<view class="main">
+			<view class="list">
+				<view wx:for="{{dataList.list}}" wx:key="key" class="item shadow-project">
+					<image mode="aspectFill" lazy-load="{{true}}" class="loading left" src="{{item.user.USER_PIC}}" />
+					<view class="right">
+						<view class="name">{{item.ACTIVITY_JOIN_OBJ.name}} </view>
+						<view class="desc">{{item.ACTIVITY_JOIN_ADD_TIME}}</view>
+					</view>
+				</view>
+			</view>
+
+			<!--load begin-->
+			<import src="../../../../../tpls/public/list_load_tpl.wxml" />
+			<template is="listLoadTpl" data="{{skin:'load-project',dataList}}" />
+			<!--load end-->
+
+		</view>
+
+
+		<!-- List END -->
+
+	</cmpt-comm-list>
+
+	<!--  button Begin -->
+	<!--  button END -->
+
+</block>

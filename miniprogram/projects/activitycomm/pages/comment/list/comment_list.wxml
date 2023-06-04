@@ -1,0 +1,46 @@
+<block wx:if="{{isLoad}}">
+	<cmpt-comm-list type="comment-list" search="{{search||''}}" _params="{{_params}}" _menus="{{sortMenus}}" _items="{{sortItems}}" route="comment/list" isTotalMenu="{{false}}" sortMenusDefaultIndex="0" topBottom="120" placeholder="搜索标题" bind:list="bindCommListCmpt">
+
+
+		<!-- List Begin -->
+		<view class="list">
+			<view class="item" wx:for="{{dataList.list}}" wx:key="k">
+				<image class="left loading" mode="aspectFill" lazy-load="{{true}}" src="{{item.user.USER_PIC}}"></image>
+				<view class="right">
+					<view class="title">
+						<text class="name text-project">{{item.user.USER_NAME}}</text>
+						<text class="date">{{item.COMMENT_ADD_TIME}}</text>
+					</view>
+					<view class="content"><text>{{item.COMMENT_OBJ.content}}</text></view>
+
+					<view class="album">
+						<image bindtap="url" data-type="img" data-imgs="{{item.COMMENT_OBJ.img}}" data-url="{{itm}}" wx:for="{{item.COMMENT_OBJ.img}}" wx:key="key1" wx:for-item="itm" class="loading  img{{item.COMMENT_OBJ.img.length}}" mode="aspectFill" lazy-load="{{true}}" src="{{itm}}"></image>
+					</view>
+
+					<view class="oprt" wx:if="{{nowUserId==item.COMMENT_USER_ID||isAdmin}}">
+						<view bindtap="bindDelTap" data-id="{{item._id}}" class="tag text-red light mid radius text-orange"><text class="icon-delete"></text>删除</view>
+					</view>
+
+
+				</view>
+
+
+			</view>
+
+
+
+			<!--load begin-->
+			<import src="../../../../../tpls/public/list_load_tpl.wxml" />
+			<template is="listLoadTpl" data="{{skin:'load-project',dataList}}" />
+			<!--load end-->
+
+		</view>
+		<!-- List END -->
+
+	</cmpt-comm-list>
+
+	<!--  button Begin -->
+	<!--  button END -->
+
+	<view wx:if="{{!isAdmin}}" bindtap="url" data-url="../add/comment_add?id={{id}}" class="add shadow-project"><text class="icon-add"></text></view>
+</block>
