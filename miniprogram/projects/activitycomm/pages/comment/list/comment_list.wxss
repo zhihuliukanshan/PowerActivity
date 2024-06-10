@@ -1,0 +1,133 @@
+@import "../../../style/skin.wxss";
+
+
+page {
+	background-color: #fff !important;
+}
+
+.main {
+	padding: 0
+}
+
+.list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 15rpx;
+}
+
+.list .item {
+	width: 100%;
+	display: flex;
+	padding: 15rpx;
+	background-color: #fff;
+	margin-bottom: 15rpx;
+	align-items: flex-start;
+	border-bottom: 2rpx dotted #eee;
+}
+
+.list .left {
+	width: 50rpx;
+	height: 50rpx;
+	border-radius: 50%;
+	margin-right: 10rpx;
+}
+
+.list .right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 6rpx 10rpx;
+}
+
+.list .right .title {
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.list .right .title .name {
+	font-size: 26rpx;
+	color: #000;
+}
+
+.list .right .title .date {
+	font-size: 24rpx;
+	color: #999;
+}
+
+.list .right .content {
+	margin-top: 15rpx;
+	width: 100%;
+	display: flex;
+	font-size: 26rpx;
+	line-height: 1.3;
+	color: #333;
+}
+
+.list .right .album {
+	margin-top: 20rpx;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list .right .album image {
+	height: 120rpx;
+	width: 120rpx;
+	margin-right: 10rpx;
+	margin-bottom: 10rpx;
+	border-radius: 10rpx;
+}
+
+.list .right .album image.img1 {
+	height: 230rpx;
+	width: 230rpx;
+}
+
+.list .right .album image.img2 {
+	height: 200rpx;
+	width: 200rpx;
+}
+
+.list .right .album image.img3,
+.list .right .album image.img4,
+.list .right .album image.img5,
+.list .right .album image.img6,
+.list .right .album image.img7,
+.list .right .album image.img8,
+.list .right .album image.img9 {
+	height: 170rpx;
+	width: 170rpx;
+}
+
+.list .right .oprt {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5rpx 0;
+}
+
+
+
+.add {
+	position: fixed;
+	left: 30rpx;
+	bottom: 150rpx;
+	z-index: 999;
+	background-color: var(--projectColor);
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: .8;
+}
+
+.add text {
+	font-size: 70rpx;
+	font-weight: bold;
+	color: #fff;
+}
