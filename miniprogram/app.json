@@ -1,0 +1,111 @@
+{
+	"pages": [
+		"projects/activitycomm/pages/default/index/default_index",
+		"projects/activitycomm/pages/about/index/about_index",
+		"projects/activitycomm/pages/search/search",
+		"projects/activitycomm/pages/my/index/my_index",
+		"projects/activitycomm/pages/my/reg/my_reg",
+		"projects/activitycomm/pages/my/edit/my_edit",
+		"projects/activitycomm/pages/my/foot/my_foot",
+		"projects/activitycomm/pages/my/fav/my_fav",
+		"projects/activitycomm/pages/news/index/news_index",
+		"projects/activitycomm/pages/news/detail/news_detail",
+		"projects/activitycomm/pages/news/cate1/news_cate1",
+		"projects/activitycomm/pages/admin/news/list/admin_news_list",
+		"projects/activitycomm/pages/admin/news/add/admin_news_add",
+		"projects/activitycomm/pages/admin/news/edit/admin_news_edit",
+		"projects/activitycomm/pages/admin/setup/about/admin_setup_about",
+		"projects/activitycomm/pages/admin/setup/about_list/admin_setup_about_list",
+		"projects/activitycomm/pages/admin/setup/qr/admin_setup_qr",
+		"projects/activitycomm/pages/admin/index/home/admin_home",
+		"projects/activitycomm/pages/admin/index/login/admin_login",
+		"projects/activitycomm/pages/admin/content/admin_content",
+		"projects/activitycomm/pages/admin/mgr/log/admin_log_list",
+		"projects/activitycomm/pages/admin/mgr/edit/admin_mgr_edit",
+		"projects/activitycomm/pages/admin/mgr/list/admin_mgr_list",
+		"projects/activitycomm/pages/admin/mgr/add/admin_mgr_add",
+		"projects/activitycomm/pages/admin/mgr/pwd/admin_mgr_pwd",
+		"projects/activitycomm/pages/admin/user/list/admin_user_list",
+		"projects/activitycomm/pages/admin/user/detail/admin_user_detail",
+		"projects/activitycomm/pages/admin/user/export/admin_user_export",
+		"projects/activitycomm/pages/activity/index/activity_index",
+		"projects/activitycomm/pages/activity/detail/activity_detail",
+		"projects/activitycomm/pages/activity/join/activity_join",
+		"projects/activitycomm/pages/activity/my_join_list/activity_my_join_list",
+		"projects/activitycomm/pages/activity/my_join_detail/activity_my_join_detail",
+		"projects/activitycomm/pages/activity/my_join_self/activity_my_join_self",
+		"projects/activitycomm/pages/activity/calendar/activity_calendar",
+		"projects/activitycomm/pages/activity/join_list/activity_join_list",
+		"projects/activitycomm/pages/admin/activity/join_list/admin_activity_join_list",
+		"projects/activitycomm/pages/admin/activity/self/admin_activity_self",
+		"projects/activitycomm/pages/admin/activity/export/admin_activity_export",
+		"projects/activitycomm/pages/admin/activity/scan/admin_activity_scan",
+		"projects/activitycomm/pages/admin/activity/list/admin_activity_list",
+		"projects/activitycomm/pages/admin/activity/add/admin_activity_add",
+		"projects/activitycomm/pages/admin/activity/edit/admin_activity_edit",
+		"projects/activitycomm/pages/comment/list/comment_list",
+		"projects/activitycomm/pages/comment/add/comment_add",
+		"cmpts/public/form/form_set/field/form_set_field",
+		"cmpts/public/form/form_show/content/form_show_content",
+		"pages/test1/test1"
+	],
+	"window": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#25C865",
+		"navigationBarTitleText": "活动报名小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#25C865",
+		"list": [
+			{
+				"pagePath": "projects/activitycomm/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "/projects/activitycomm/images/tabbar/home.png",
+				"selectedIconPath": "/projects/activitycomm/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/activitycomm/pages/news/index/news_index",
+				"text": "通知",
+				"iconPath": "/projects/activitycomm/images/tabbar/news.png",
+				"selectedIconPath": "/projects/activitycomm/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/activitycomm/pages/activity/index/activity_index",
+				"text": "报名",
+				"iconPath": "/projects/activitycomm/images/tabbar/enroll.png",
+				"selectedIconPath": "/projects/activitycomm/images/tabbar/enroll_cur.png"
+			},
+			{
+				"pagePath": "projects/activitycomm/pages/activity/calendar/activity_calendar",
+				"text": "日历",
+				"iconPath": "/projects/activitycomm/images/tabbar/checkin.png",
+				"selectedIconPath": "/projects/activitycomm/images/tabbar/checkin_cur.png"
+			},
+			{
+				"pagePath": "projects/activitycomm/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "/projects/activitycomm/images/tabbar/my.png",
+				"selectedIconPath": "/projects/activitycomm/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"requiredPrivateInfos": [
+		"chooseLocation"
+	],
+	"usingComponents": {
+		"cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+		"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+		"cmpt-modal": "/cmpts/public/modal/modal_cmpt"
+	},
+	"sitemapLocation": "sitemap.json"
+}
